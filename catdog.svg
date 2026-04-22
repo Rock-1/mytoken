@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Dog and Cat Hybrid</title>
+  <desc id="desc">A playful cat-dog hybrid illustration with a split personality: cat on the left, dog on the right.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff4da" />
+      <stop offset="100%" stop-color="#c7ecff" />
+    </linearGradient>
+    <linearGradient id="face" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f6c57c" />
+      <stop offset="50%" stop-color="#f3d5b1" />
+      <stop offset="100%" stop-color="#c9875a" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#8d6a4b" flood-opacity="0.22" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)" />
+  <circle cx="160" cy="120" r="56" fill="#ffffff" fill-opacity="0.25" />
+  <circle cx="680" cy="160" r="44" fill="#ffffff" fill-opacity="0.2" />
+  <circle cx="640" cy="470" r="72" fill="#ffffff" fill-opacity="0.18" />
+
+  <g filter="url(#shadow)">
+    <ellipse cx="400" cy="500" rx="172" ry="36" fill="#a7c4d6" fill-opacity="0.3" />
+
+    <path d="M302 183 L252 85 L358 140 Z" fill="#f0b568" stroke="#493221" stroke-width="8" stroke-linejoin="round" />
+    <path d="M307 173 L276 112 L338 144 Z" fill="#f8d2bb" />
+
+    <path d="M500 166
+             C545 104 614 112 631 180
+             C636 201 630 236 612 257
+             C587 236 559 221 526 214 Z"
+          fill="#9b6546" stroke="#493221" stroke-width="8" stroke-linejoin="round" />
+    <path d="M541 173
+             C566 140 606 146 615 191
+             C620 213 611 229 598 241
+             C579 221 561 207 535 201 Z"
+          fill="#c9875a" />
+
+    <circle cx="400" cy="280" r="150" fill="url(#face)" stroke="#493221" stroke-width="8" />
+
+    <path d="M401 132
+             C355 140 317 163 293 196
+             C270 228 262 267 269 308
+             C277 348 301 382 333 404
+             C358 421 381 430 401 430 Z"
+          fill="#f7cf93" />
+    <path d="M401 132
+             C447 138 488 159 514 193
+             C540 226 549 266 541 308
+             C532 350 507 385 472 406
+             C446 422 423 430 401 430 Z"
+          fill="#c98558" />
+
+    <path d="M319 235 C340 213 370 214 388 237 C365 251 343 251 319 235 Z" fill="#ffffff" fill-opacity="0.45" />
+    <path d="M432 237 C454 215 485 218 502 244 C475 255 453 252 432 237 Z" fill="#ffffff" fill-opacity="0.18" />
+
+    <ellipse cx="345" cy="274" rx="26" ry="31" fill="#ffffff" stroke="#493221" stroke-width="6" />
+    <ellipse cx="459" cy="282" rx="30" ry="35" fill="#ffffff" stroke="#493221" stroke-width="6" />
+    <circle cx="349" cy="279" r="10" fill="#1f1b18" />
+    <circle cx="454" cy="287" r="11" fill="#1f1b18" />
+    <circle cx="353" cy="274" r="3" fill="#ffffff" />
+    <circle cx="458" cy="282" r="3" fill="#ffffff" />
+
+    <path d="M400 289
+             C382 287 370 299 369 315
+             C383 326 397 331 412 328
+             C415 308 411 295 400 289 Z"
+          fill="#2b211a" />
+    <path d="M381 331
+             C389 344 398 351 409 354
+             C421 349 430 341 437 330"
+          fill="none" stroke="#493221" stroke-width="7" stroke-linecap="round" />
+    <path d="M364 345
+             C373 356 383 362 396 365"
+          fill="none" stroke="#493221" stroke-width="6" stroke-linecap="round" />
+    <path d="M440 344
+             C451 354 462 359 474 360"
+          fill="none" stroke="#493221" stroke-width="6" stroke-linecap="round" />
+
+    <path d="M241 313
+             C282 304 316 311 344 330"
+          fill="none" stroke="#493221" stroke-width="5" stroke-linecap="round" />
+    <path d="M243 338
+             C282 329 320 336 348 353"
+          fill="none" stroke="#493221" stroke-width="5" stroke-linecap="round" />
+    <path d="M241 363
+             C280 354 320 359 349 376"
+          fill="none" stroke="#493221" stroke-width="5" stroke-linecap="round" />
+
+    <path d="M554 346
+             C584 349 609 364 624 389"
+          fill="none" stroke="#493221" stroke-width="8" stroke-linecap="round" />
+    <path d="M575 333
+             C604 336 626 349 640 369"
+          fill="none" stroke="#493221" stroke-width="8" stroke-linecap="round" />
+
+    <path d="M347 411
+             C328 459 321 496 326 530
+             L374 530
+             C375 495 381 460 397 431 Z"
+          fill="#f5be76" stroke="#493221" stroke-width="8" stroke-linejoin="round" />
+    <path d="M405 431
+             C424 456 433 493 433 530
+             L484 530
+             C484 493 478 456 457 414 Z"
+          fill="#bc774d" stroke="#493221" stroke-width="8" stroke-linejoin="round" />
+
+    <path d="M333 528 H378" stroke="#493221" stroke-width="8" stroke-linecap="round" />
+    <path d="M441 528 H486" stroke="#493221" stroke-width="8" stroke-linecap="round" />
+
+    <path d="M276 417
+             C239 427 217 456 213 489
+             C210 516 224 533 248 534
+             C250 500 259 460 276 417 Z"
+          fill="#f0b568" stroke="#493221" stroke-width="8" stroke-linejoin="round" />
+
+    <path d="M523 416
+             C565 426 593 454 602 489
+             C608 515 596 533 570 537
+             C568 500 552 454 523 416 Z"
+          fill="#8f5d42" stroke="#493221" stroke-width="8" stroke-linejoin="round" />
+
+    <path d="M267 435
+             C247 421 223 421 206 434
+             C190 446 185 472 196 491
+             C214 481 230 466 244 445"
+          fill="none" stroke="#493221" stroke-width="7" stroke-linecap="round" />
+
+    <path d="M563 431
+             C617 427 653 445 668 482
+             C681 515 667 544 632 549
+             C640 503 617 458 563 431 Z"
+          fill="none" stroke="#493221" stroke-width="9" stroke-linecap="round" />
+  </g>
+
+  <text x="400" y="84" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-size="34" fill="#493221">
+    CatDog Hybrid
+  </text>
+</svg>
