@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" role="img" aria-labelledby="title desc">
+  <title id="title">端庄女性肖像</title>
+  <desc id="desc">一幅穿着礼服的女性半身插画，作为对不适合请求的安全替代方案。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8e6dc" />
+      <stop offset="100%" stop-color="#d6e4f0" />
+    </linearGradient>
+    <linearGradient id="dress" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f4f5f" />
+      <stop offset="100%" stop-color="#102a35" />
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="800" fill="url(#bg)" />
+  <circle cx="320" cy="330" r="210" fill="#f6d6c7" opacity="0.25" />
+
+  <path d="M225 265c6-95 62-148 132-148 69 0 124 53 130 148-11-20-31-38-58-53-34-19-69-28-102-28-33 0-68 9-102 28-28 15-49 33-60 53z" fill="#3f2a23" />
+  <path d="M245 300c0-85 30-147 75-170 45-23 90-23 135 0 45 23 75 85 75 170 0 82-28 134-59 167-38 40-82 60-136 60-54 0-98-20-136-60-31-33-59-85-59-167z" fill="#f3cfbf" />
+
+  <ellipse cx="270" cy="340" rx="14" ry="10" fill="#3f2a23" />
+  <ellipse cx="370" cy="340" rx="14" ry="10" fill="#3f2a23" />
+  <path d="M295 395c16 12 34 18 55 18 20 0 39-6 55-18" fill="none" stroke="#b66868" stroke-width="8" stroke-linecap="round" />
+  <path d="M320 355c-7 15-9 31-6 48" fill="none" stroke="#d49c8e" stroke-width="6" stroke-linecap="round" />
+
+  <path d="M196 604c26-76 77-116 124-116h0c47 0 98 40 124 116l20 95H176l20-95z" fill="url(#dress)" />
+  <path d="M272 497c16 22 32 34 48 34s32-12 48-34l20 32c-16 31-39 47-68 47s-52-16-68-47l20-32z" fill="#e9f0f4" />
+  <path d="M250 240c24-63 61-96 111-96 65 0 116 50 122 132-33-29-84-48-143-48-31 0-61 5-89 15z" fill="#4a322a" />
+
+  <circle cx="229" cy="320" r="24" fill="#f1cbbb" />
+  <circle cx="411" cy="320" r="24" fill="#f1cbbb" />
+  <path d="M220 264c24-26 50-45 77-58M420 264c-24-26-50-45-77-58" fill="none" stroke="#3f2a23" stroke-width="18" stroke-linecap="round" />
+</svg>
