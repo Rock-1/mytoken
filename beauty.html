@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>优雅女性肖像</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #17313b;
+        --muted: #65717a;
+        --paper: #fffaf4;
+        --line: rgba(23, 49, 59, 0.14);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        color: var(--ink);
+        font-family: "Avenir Next", "Segoe UI", sans-serif;
+        background:
+          radial-gradient(circle at 18% 16%, rgba(255, 213, 164, 0.42), transparent 28%),
+          radial-gradient(circle at 82% 12%, rgba(111, 171, 186, 0.3), transparent 25%),
+          linear-gradient(135deg, #f6eee7 0%, #d9e7ea 100%);
+      }
+
+      main {
+        width: min(920px, 100%);
+      }
+
+      figure {
+        margin: 0;
+        display: grid;
+        gap: 16px;
+      }
+
+      .portrait-frame {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--paper);
+        box-shadow: 0 24px 70px rgba(21, 44, 57, 0.18);
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      figcaption {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.6;
+      }
+
+      figcaption strong {
+        color: var(--ink);
+      }
+
+      @media (max-width: 620px) {
+        body {
+          padding: 12px;
+        }
+
+        figcaption {
+          display: grid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <figure>
+        <div class="portrait-frame">
+          <img src="./portrait.svg" alt="一幅优雅女性半身肖像插画" />
+        </div>
+        <figcaption>
+          <strong>优雅女性肖像</strong>
+          <span>纯 SVG 绘制，包含柔和背景、礼服、花饰与人物光影。</span>
+        </figcaption>
+      </figure>
+    </main>
+  </body>
+</html>
